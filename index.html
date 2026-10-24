@@ -626,7 +626,7 @@
         <div class="section">
             <div class="section-title">Diagnostic Findings</div>
             <p class="audit-findings-top-statement" style="color: #4b5563; margin-bottom: 0.5rem;">
-                Typical waste patterns identified across our AWS audits ($15k–$50k monthly spend).
+                A composite baseline of exact leaks from our AWS audits ($15k–$50k monthly spend).
             </p>
             <div class="table-responsive">
                 <table class="diagnostic-table">
@@ -640,12 +640,12 @@
                     <tr><td class="label">Unused CloudWatch Logs (retention &gt; 30 days, 700GB storage)</td><td class="value">$282.33/mo</td></tr>
                     <tr><td class="label">Underutilized EBS‑optimized instances (10x m5.large, &lt;20% utilization)</td><td class="value">$768.45/mo</td></tr>
                     <tr><td class="label">Idle RDS Read Replicas (3x, no traffic)</td><td class="value">$179.76/mo</td></tr>
-                    <tr class="total-row"><td class="label">Findings per audit (typical)</td><td class="value">~$4,532/mo</td></tr>
+                    <tr class="total-row"><td class="label">Composite baseline per audit</td><td class="value">~$4,532/mo</td></tr>
                 </table>
             </div>
 
             <p class="audit-findings-bottom-statement" style="color: #4b5563; margin-bottom: 0.8rem;">
-                This sample previews the analysis in your custom report. 
+                This table previews the analysis in your custom report.
                 The final report includes waste findings, vetted removal commands and strategic context – all based on your defined scope.
             </p>
         </div>
